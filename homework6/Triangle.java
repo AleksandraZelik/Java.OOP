@@ -11,10 +11,6 @@ public class Triangle extends Figure{
         this.basic = basic;
     }
 
-    public Triangle() {
-
-    }
-
     public double getLeg1() {
         return leg1;
     }

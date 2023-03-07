@@ -14,9 +14,6 @@ public class Quadrilateral extends Figure {
         this.side4=side4;
         this.angleDeg=angleDeg;
     }
-    public Quadrilateral(){
-
-    }
 
     public double getSide1() {
         return side1;

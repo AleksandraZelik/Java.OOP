@@ -2,8 +2,7 @@ package homework6;
 
 public class Rhombus extends Quadrilateral {
     public Rhombus(double side1, double angleDeg) {
-        this.side1 = side1;
-        this.angleDeg = angleDeg;
+        super(side1,0,0,0,angleDeg);
     }
 
     public double square() {
