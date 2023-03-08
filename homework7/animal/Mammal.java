@@ -1,7 +1,6 @@
 package homework7.animal;
 
 import homework7.Moving;
-import homework7.animal.Animal;
 
 public class Mammal extends Animal implements Moving {
     public Mammal(String name, double weight, int age) {
@@ -9,7 +8,6 @@ public class Mammal extends Animal implements Moving {
     }
 
     @Override
-    public void move() {
-        System.out.println(name+ " can move");
+    public void move() {System.out.println(name+ " can move");
     }
 }

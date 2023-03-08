@@ -21,4 +21,12 @@ public abstract class Animal {
     public int getAge() {
         return age;
     }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
 }

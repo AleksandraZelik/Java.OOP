@@ -21,4 +21,8 @@ public abstract class Machine {
     public int getSpeed() {
         return speed;
     }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 }
