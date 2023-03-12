@@ -7,7 +7,7 @@ import homework7.birds.SwimmingBird;
 import homework7.cars.FlyingMachine;
 import homework7.cars.RoadMachine;
 import homework7.cars.SwimmingMachine;
-import homework7.fish.Fish;
+import homework7.fish.FreshwaterFish;
 
 public class Main {
     public static void main(String[] args){
@@ -41,13 +41,13 @@ public class Main {
         Mammal hamster = new Mammal("Hamster",0.2,1);
         hamster.move();
         System.out.println("name "+hamster.getName());
-        Fish crucian = new Fish("Crucian",0.3,1);
+        FreshwaterFish crucian= new FreshwaterFish("Crucian",0.3,1);
         crucian.swim();
         System.out.println("age "+crucian.getAge());
-        Fish pike = new Fish("Pike",0.7,2);
+        FreshwaterFish pike = new FreshwaterFish("Pike",0.7,2);
         pike.swim();
         System.out.println("weight "+pike.getWeight());
-        Fish som = new Fish("Som",1.7,3);
+        FreshwaterFish som = new FreshwaterFish("Som",1.7,3);
         som.swim();
         System.out.println("weight "+som.getWeight());
         FlyingMachine hotAirBalloon = new FlyingMachine("hotAirBalloon","white",125);
