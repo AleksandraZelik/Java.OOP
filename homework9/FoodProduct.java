@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 
 public class FoodProduct extends Product {
-    public  static int numberFoodProduct;
+    private  static int numberFoodProduct;
     public FoodProduct(String name, LocalDateTime manufactureDate, int shelfLife) {
         super(name, manufactureDate, shelfLife);
         numberFoodProduct++;

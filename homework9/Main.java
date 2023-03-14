@@ -10,6 +10,9 @@ public class Main {
         FoodProduct cheese = ProductFactory.createFoodProduct("cheese", LocalDate.now().atStartOfDay(), 24);
         NonFoodProduct soap=ProductFactory.createNonFoodProduct("soap", LocalDate.now().atStartOfDay(),10);
         NonFoodProduct shampoo=ProductFactory.createNonFoodProduct("shampoo", LocalDate.now().atStartOfDay(),24);
+        NonFoodProduct gel=ProductFactory.createNonFoodProduct("gel", LocalDate.now().atStartOfDay(),24);
+        Product food=new FoodProduct("food",LocalDate.now().atStartOfDay(),6);
+        Product brush=ProductFactory.createNonFoodProduct("brush",LocalDate.now().atStartOfDay(),4);
 
         System.out.println("Фабрика виготовила "+ ProductFactory.getFoodProductCount()+" продуктових товарів");
         System.out.println("Фабрика виготовила "+ ProductFactory.getNonFoodProductCount()+" непродуктових товарів");
