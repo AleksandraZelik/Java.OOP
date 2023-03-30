@@ -36,11 +36,15 @@ public class Quadrilateral extends Figure {
     }
 
 
-
     public double square(){
         double angleRadian=(angleDeg*3.14)/180;
         double sinAngle=Math.sin(angleRadian);
         return 0.5 * side1 * side2 * sinAngle;
+    }
+
+    @Override
+    public double perimeter() {
+        return side1+side2+side3+side4;
     }
 
 

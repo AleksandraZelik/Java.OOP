@@ -8,4 +8,9 @@ public class Rectangle extends Quadrilateral {
     public double square(){
         return side1 * side2;
     }
+
+    @Override
+    public double perimeter() {
+        return 2*(side1+side2);
+    }
 }

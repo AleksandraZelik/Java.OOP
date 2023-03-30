@@ -2,8 +2,8 @@ package homework6;
 
 public class EquilateralTriangle extends Triangle {
 
-    public EquilateralTriangle(double leg1) {
-        super(leg1, 0, 0);
+    public EquilateralTriangle( double leg1) {
+        super( leg1, 0, 0);
     }
 
     public double square() {
